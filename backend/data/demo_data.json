@@ -1,0 +1,127 @@
+{
+  "schemes": [
+    {
+      "id": "SC001",
+      "name": "Entrepreneurship Support Scheme",
+      "category": [
+        "SC"
+      ],
+      "income_limit": 300000,
+      "min_amount": 50000,
+      "max_amount": 500000,
+      "purposes": [
+        "business",
+        "entrepreneurship",
+        "small business"
+      ],
+      "locations": [
+        "Maharashtra"
+      ],
+      "description": "Illustrative demo support for small business and entrepreneurship."
+    },
+    {
+      "id": "SC002",
+      "name": "Micro Business Assistance Scheme",
+      "category": [
+        "SC",
+        "eligible applicants"
+      ],
+      "income_limit": 500000,
+      "min_amount": 50000,
+      "max_amount": 1000000,
+      "purposes": [
+        "micro enterprise",
+        "business",
+        "small business"
+      ],
+      "locations": [
+        "Maharashtra",
+        "All India"
+      ],
+      "description": "Illustrative demo assistance for micro enterprises."
+    },
+    {
+      "id": "SC003",
+      "name": "Skill & Enterprise Starter Scheme",
+      "category": [
+        "eligible entrepreneurs",
+        "SC"
+      ],
+      "income_limit": 400000,
+      "min_amount": 25000,
+      "max_amount": 300000,
+      "purposes": [
+        "skill-based business",
+        "business",
+        "entrepreneurship"
+      ],
+      "locations": [
+        "Maharashtra",
+        "All India"
+      ],
+      "description": "Illustrative demo starter assistance for skill-based businesses."
+    }
+  ],
+  "partners": [
+    {
+      "id": "P001",
+      "name": "Demo Channel Partner - Parbhani",
+      "district": "Parbhani",
+      "schemes": [
+        "SC001",
+        "SC003"
+      ],
+      "distance_km": 3.2
+    },
+    {
+      "id": "P002",
+      "name": "Demo Channel Partner - Nanded",
+      "district": "Nanded",
+      "schemes": [
+        "SC002"
+      ],
+      "distance_km": 62
+    },
+    {
+      "id": "P003",
+      "name": "Demo Channel Partner - Chhatrapati Sambhajinagar",
+      "district": "Chhatrapati Sambhajinagar",
+      "schemes": [
+        "SC001"
+      ],
+      "distance_km": 190
+    }
+  ],
+  "documents": [
+    {
+      "name": "Identity Proof",
+      "required": true,
+      "why": "Used as basic identity evidence."
+    },
+    {
+      "name": "Caste Certificate",
+      "required": true,
+      "why": "Used to verify the configured category."
+    },
+    {
+      "name": "Income Certificate",
+      "required": true,
+      "why": "Used to check the configured income condition."
+    },
+    {
+      "name": "Address Proof",
+      "required": true,
+      "why": "Used to establish applicant location."
+    },
+    {
+      "name": "Project/Business Details",
+      "required": true,
+      "why": "Helps assess the proposed business/project."
+    },
+    {
+      "name": "Bank Account Details",
+      "required": true,
+      "why": "Illustrative requirement for financial assistance routing."
+    }
+  ]
+}
